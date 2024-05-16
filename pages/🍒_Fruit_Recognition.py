@@ -9,7 +9,7 @@ try:
         print('Đã load model rồi')
 except:
     st.session_state["LoadModel"] = True
-    st.session_state["Net"] = cv2.dnn.readNet("models/trai_cay.onnx")
+    st.session_state["Net"] = cv2.dnn.readNet("fruit_recognition/trai_cay.onnx")
     print(st.session_state["LoadModel"])
     print('Load model lần đầu') 
 

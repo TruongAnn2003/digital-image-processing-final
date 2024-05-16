@@ -21,8 +21,8 @@ def tao_anh_ngau_nhien():
 
 if 'is_load' not in st.session_state:
     # load model
-    model_architecture = 'digit_config.json'
-    model_weights = 'digit_weight.h5'
+    model_architecture = 'handwritten_digit_recognition/digit_config.json'
+    model_weights = 'handwritten_digit_recognition/digit_weight.h5'
     model = model_from_json(open(model_architecture).read())
     model.load_weights(model_weights)
 
