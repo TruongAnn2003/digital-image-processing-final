@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.markdown(
     """
-    <h1 style="text-align: center;">👋 Welcome to 👋<br/>Digital Image Processing<br/> Final Project! </h1>
+    <h1 style="text-align: center;">⭐ Welcome to ⭐<br/>Digital Image Processing<br/> Final Project! </h1>
     """,
     unsafe_allow_html=True,
 )
